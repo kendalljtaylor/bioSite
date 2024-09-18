@@ -70,14 +70,15 @@ footer {
 .home {
 	float: right;
 	background-color: #07881D;
-	padding: .5%;
+	padding: .1%;
 	border: solid black;
 	box-shadow: 5px 5px 5px #0C5017;}
 
 .home a {
 	color: white;
 	text-decoration: none;
-	text-weight: bold;}
+	text-weight: bold;
+	font-size: 15px;}
 
 .home a:hover {
 	text-decoration: underline;
@@ -90,5 +91,20 @@ footer {
 .image a:hover {
 	text-decoration: underline;}
 
+footer {
+	background-color: #0C5017;
+	position: relative;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 65px;}
 
+footer p.center {
+	text-align: center;
+	color: white;
+	display: inline;}
+
+footer p.right {
+	float: right;
+	display: inline;}
 
